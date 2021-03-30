@@ -1,4 +1,4 @@
-@import url('"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html, body{
     margin: 0;
@@ -8,9 +8,61 @@ html, body{
     color: #000000;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100wh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 #title {
   font-size: 3rem;
   font-weight: 900;
+  margin-bottom: 2rem;
 }
 #web { color: #000000;}
 #mist { color : #3c78d8;}
+
+#card {
+  width: 256px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+canvas {
+  background-color: #000000;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bar {
+  height: 100px;
+  width: 0.5rem;
+  background-color: #e6e6e6;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.label {
+  margin: 1rem 0;
+}
+
+.argmax {
+  font-weight: 400;
+  color: #3c78d8;
+}
+
+.argmax .bar {
+  bakcground-color: #3c78d8;
+}
