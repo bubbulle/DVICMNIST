@@ -11,6 +11,16 @@
 </head>
 
 <body>
-    <hl>boubou !</hl>
+    <div id="title">
+        <span id="web">Web</span><span id="mnist">MNIST</span>
+    </div>
+
+    <div id="card">
+        <canvas width=256 height=256></canvas>
+        <div id="content">
+            <div id ="content-bar"></div>
+            <div id="content-label"></div>
+        </div>
+    </div>
 </body>
 </html>
